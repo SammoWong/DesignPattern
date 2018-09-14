@@ -6,6 +6,9 @@ namespace DesignPattern.Singleton
     {
         static void Main(string[] args)
         {
+            Singleton4 singleton = Singleton4.Instance;
+            singleton.GetInfo();
+            Console.Read();
         }
     }
 }
