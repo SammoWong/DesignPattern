@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPattern.Singleton
 {
     public class Singleton4
     {
-        private Singleton4() { }
+        private Singleton4()
+        {
+        }
 
         public static Singleton4 Instance => GenericSingleton<Singleton4>.Instance();
 

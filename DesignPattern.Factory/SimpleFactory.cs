@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPattern.Factory
+﻿namespace DesignPattern.Factory
 {
     /// <summary>
     /// 产品枚举
@@ -24,8 +20,10 @@ namespace DesignPattern.Factory
             {
                 case CarEnum.BMW:
                     return new BmwCar();
+
                 case CarEnum.BYD:
                     return new BydCar();
+
                 default:
                     return null;
             }

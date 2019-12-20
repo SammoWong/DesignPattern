@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPattern.Singleton
+﻿namespace DesignPattern.Singleton
 {
     /// <summary>
     /// 单例模式：锁机制
@@ -13,15 +9,17 @@ namespace DesignPattern.Singleton
 
         private static readonly object _lock = new object();
 
-        private Singleton3(){}
+        private Singleton3()
+        {
+        }
 
         public static Singleton3 Instance()
         {
-            if(singleton3 == null)
+            if (singleton3 == null)
             {
                 lock (_lock)
                 {
-                    if(singleton3 == null)
+                    if (singleton3 == null)
                     {
                         singleton3 = new Singleton3();
                     }

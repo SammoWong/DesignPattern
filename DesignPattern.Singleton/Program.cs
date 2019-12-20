@@ -2,9 +2,9 @@
 
 namespace DesignPattern.Singleton
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Singleton4 singleton = Singleton4.Instance;
             singleton.GetInfo();

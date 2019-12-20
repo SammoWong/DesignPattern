@@ -2,9 +2,9 @@
 
 namespace DesignPattern.Factory
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var car = SimpleFactory.Create(CarEnum.BYD);
             car.GetInfo();
@@ -12,7 +12,6 @@ namespace DesignPattern.Factory
             IFactory factory = new BMWFactory();
             var bmw = factory.Create();
             bmw.GetInfo();
-
 
             var bmwFactory = new BmwFactory();
             bmwFactory.CreateBus().GetInfo();

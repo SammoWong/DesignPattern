@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPattern.Singleton
+﻿namespace DesignPattern.Singleton
 {
     /// <summary>
     /// 单例模式：延迟初始化
@@ -11,7 +7,9 @@ namespace DesignPattern.Singleton
     {
         private static Singleton2 singleton2;
 
-        private Singleton2() { }
+        private Singleton2()
+        {
+        }
 
         public static Singleton2 Instance()
         {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPattern.Factory
+﻿namespace DesignPattern.Factory
 {
     /// <summary>
     /// 抽象工厂模式：抽象工厂是应对产品族概念的，应对产品族概念而生，增加新的产品线很容易，但是无法增加新的产品

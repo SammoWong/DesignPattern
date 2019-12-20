@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPattern.Factory
+﻿namespace DesignPattern.Factory
 {
     /// <summary>
     /// 工厂方法:符合开放封闭原则
